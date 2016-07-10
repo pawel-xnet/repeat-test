@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" ng-app="NoteWrangler">
+<head>
+    <meta charset="utf-8">
+    <title>My HTML File</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="js/app.js"></script>
+    
+    <script src="js/services/page-service.js"></script>
+    
+    <script src="js/controllers/notes-index-controller.js"></script>
+    <script src="js/controllers/notes-show-controller.js"></script>
+    <script src="js/controllers/users-index-controller.js"></script>
+    <script src="js/controllers/test1-controller.js"></script>
+    <script src="js/controllers/test2-controller.js"></script>
+    <script src="js/directives/test2-directive.js"></script>
+    <script src="js/services/notes-service.js"></script>
+    
+</head>
+<body ng-controller="AppCtrl">
+    <div class="main-wrapper">
+        <a href="#/"><h1>Main page</h1></a>
+        <main-menu></main-menu>
+        
+        <div ng-view></div>
+
+    </div>
+</body>
+</html>

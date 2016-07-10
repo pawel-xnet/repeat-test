@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Adam(JSON)",
+        "bio": "some sample description",
+        "canPurchase":true, 
+        "soldOut":false,
+        "images":[
+            "/img/phones/dell-streak-7.3.jpg",
+            "/img/phones/dell-streak-7.4.jpg"
+        ],
+        "reviews":[
+            {
+                "stars":5,
+                "body":"g1 very good",
+                "author":"g1 review1 author"
+            },
+            {
+                "stars":1,
+                "body":"g1 very bad",
+                "author":"g1 review2 author"
+            }
+        ]
+    },
+    {
+        "name": "Bronisław(JSON)",
+        "bio": "desc22222222222",
+        "canPurchase":true,
+        "soldOut":false,
+        "images":[
+            "/img/phones/motorola-atrix-4g.1.jpg",
+            "/img/phones/motorola-atrix-4g.3.jpg"
+        ],
+        "reviews":[
+            {
+                "stars":4,
+                "body":"g2 very good",
+                "author":"g2 review1 author"
+            },
+            {
+                "stars":2,
+                "body":"g2 very bad",
+                "author":"g2 review2 author"
+            }
+        ]
+    },
+    {
+        "name": "Czesław(JSON)",
+        "bio": "descr333333333333333333333333",
+        "canPurchase":false,
+        "soldOut":false,
+        "images":[
+            "/img/phones/motorola-charm-with-motoblur.1.jpg",
+            "/img/phones/motorola-charm-with-motoblur.2.jpg"
+        ],
+        "reviews":[
+            {
+                "stars":5,
+                "body":"g3 very good",
+                "author":"g3 review1 author"
+            },
+            {
+                "stars":1,
+                "body":"g3 very bad",
+                "author":"g3 review2 author"
+            }
+        ]
+    },
+    {
+        "name": "Dawid(JSON)",
+        "bio": "descr4444444444444",
+        "canPurchase":false,
+        "soldOut":false,
+        "images":[
+            "/img/phones/samsung-mesmerize-a-galaxy-s-phone.0.jpg",
+            "/img/phones/samsung-mesmerize-a-galaxy-s-phone.1.jpg"
+        ],
+        "reviews":[
+            {
+                "stars":5,
+                "body":"g4 very good",
+                "author":"g1 review1 author"
+            },
+            {
+                "stars":1,
+                "body":"g4 very bad",
+                "author":"g1 review2 author"
+            }
+        ]
+    }
+]
