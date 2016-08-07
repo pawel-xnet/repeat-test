@@ -9,14 +9,16 @@
 </div>
 -->
 <div class="question">
-    <input type="text" ng-model="divsNumber">
+    <input type="text" 
+           ng-model="divsNumber" 
+           my-enter="generateDivs(divsNumber)">
     <button ng-click="generateDivs(divsNumber)">generate</button>
 </div>
 
 
 <div ng-repeat="(key, value) in arr1"  class="test2">
-    key ->{{key}}
-    value -> {{value}}
+    <h5>Element number ->{{key}}</h5>
+    <h5>value -> {{value}}</h5>
     <test2-dir>
     </test2-dir>
 </div>

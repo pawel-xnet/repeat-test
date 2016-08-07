@@ -5,15 +5,15 @@ angular.module('NoteWrangler')
     $scope.arr1 = [];
     
     function buildRandArray(length) {
-      var arr = [];
+        var arr = [];
 
-      for(var i = 0; i < (length || 10); i++) {
-        var fill = [];
-        fill.push(Math.floor((Math.random()*100000)+1));
-        arr.push(fill);
-      }
+        for(var i = 0; i < (length || 10); i++) {
+            var fill = [];
+            fill.push(Math.floor((Math.random()*10000000)+1));
+            arr.push(fill);
+        }
 
-      return arr;
+        return arr;
     }
     
     $scope.generateDivs = function(howMany){
