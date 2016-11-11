@@ -37,6 +37,7 @@
             .when('/test2',{
                 templateUrl:'/templates/pages/test2.html',
                 controller:'Test2Controller',
+                controllerAs: 'vm'    
             })
             .otherwise({
                 redirectTo:'/'
