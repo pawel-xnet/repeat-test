@@ -39,6 +39,11 @@
                 controller:'Test2Controller',
                 controllerAs: 'vm'    
             })
+            .when('/test3',{
+                templateUrl:'/templates/pages/test3.html',
+                controller:'Test3Controller',
+                controllerAs: 'vm'    
+            })
             .otherwise({
                 redirectTo:'/'
             });
