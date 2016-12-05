@@ -1,0 +1,17 @@
+#test3 span{
+    border:1px solid blue;
+}
+
+#test3 .row-wrapper{
+    display:flex;
+}
+
+#test3 .item{
+    border:1px solid blue;
+    flex:1;
+}
+
+#test3 .div3{
+    width:50%;
+    flex:none;
+}
