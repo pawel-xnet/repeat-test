@@ -1,17 +1,34 @@
-#test3 span{
-    border:1px solid blue;
-}
-
 #test3 .row-wrapper{
+/*    border:5px dotted red;*/
+    
     display:flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
 }
 
 #test3 .item{
-    border:1px solid blue;
-    flex:1;
+/*    border:1px solid blue;*/
+    
+
 }
 
-#test3 .div3{
-    width:50%;
-    flex:none;
+.div1{
+    background-color:yellow;
+    
+/*    width: 400px;*/
+    flex: 1 400px;
+}
+
+.div2{
+    background-color:cornsilk;
+    
+/*    width: 400px;*/
+    flex: 2 400px;
+}   
+
+.div3{
+    background-color:aqua;
+    
+/*    width: 400px;*/
+    flex: 0 1 400px;
 }
