@@ -1,34 +1,14 @@
-#test3 .row-wrapper{
-/*    border:5px dotted red;*/
+.row-wrapper{
     
-    display:flex;
-    flex-wrap: nowrap;
-    align-items: stretch;
 }
 
-#test3 .item{
-/*    border:1px solid blue;*/
-    
-
+.last-col{
+    border:1px solid red;
+    align-self: stretch;
+    width:100px;
 }
 
-.div1{
-    background-color:yellow;
-    
-/*    width: 400px;*/
-    flex: 1 400px;
-}
-
-.div2{
+.item{
+    border:1px dashed blue;
     background-color:cornsilk;
-    
-/*    width: 400px;*/
-    flex: 2 400px;
-}   
-
-.div3{
-    background-color:aqua;
-    
-/*    width: 400px;*/
-    flex: 0 1 400px;
 }
