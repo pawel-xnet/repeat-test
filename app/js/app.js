@@ -54,6 +54,16 @@
             controllerAs: 'vm'   
         })
         
+        .state('test2.list', {
+            url: '/list',
+            templateUrl:'/templates/pages/partial-test2-list.html',
+        })
+        
+        .state('test2.paragraph', {
+            url: '/paragraph',
+            templateUrl:'/templates/pages/partial-test2-paragraph.html',
+        })
+        
         .state('test3',{
             url: '/test3',
             templateUrl:'/templates/pages/test3.html',

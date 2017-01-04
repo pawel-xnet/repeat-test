@@ -1,9 +1,6 @@
 <h3>test2- subpage</h3>
 
-<input type="text" ng-model="vm.model1" />
-<input type="text" ng-model="vm.model2" />
-<button id="go-calc" ng-click="vm.calc(vm.model1, vm.model2)">calc</button>
-<div>
-    <h5>result</h5>
-    <div>{{vm.result}}</div>
-</div>
+<a ui-sref=".list">LIST</a>
+<a ui-sref=".paragraph">ParagraPH</a>
+
+<div ui-view></div>
