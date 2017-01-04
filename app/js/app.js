@@ -1,5 +1,5 @@
 (function () {
-    var app = angular.module('NoteWrangler', ['ngRoute','ngMaterial']);
+    var app = angular.module('NoteWrangler', ['ngRoute','ngMaterial','ui.router', 'ui.router.stateHelper' ]);
 
     app.directive('mainMenu',function(){
         return {

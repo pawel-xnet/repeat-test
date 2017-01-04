@@ -10,4 +10,6 @@ angular.module('NoteWrangler')
             
         });
     
+    console.log($routeParams);
+    
 });
