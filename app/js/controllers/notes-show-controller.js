@@ -1,5 +1,5 @@
 angular.module('NoteWrangler')
-.controller('NotesShowController',function($http, $routeParams){
+.controller('NotesShowController',function($http){
     var that = this;
     
     //$http.get('/notes/'+$routeParams.id)
@@ -10,6 +10,5 @@ angular.module('NoteWrangler')
             
         });
     
-    console.log($routeParams);
     
 });
