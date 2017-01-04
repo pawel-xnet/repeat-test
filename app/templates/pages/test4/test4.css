@@ -1,0 +1,8 @@
+#test4{
+    border:2px dashed lightgray;
+} 
+
+#test4 .col-left,
+#test4 .col-right{
+    border:1px dotted red;
+}

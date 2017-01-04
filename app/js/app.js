@@ -66,9 +66,27 @@
         
         .state('test3',{
             url: '/test3',
-            templateUrl:'/templates/pages/test3.html',
+            templateUrl:'/templates/pages/test3/test3.html',
             controller:'Test3Controller',
             controllerAs: 'vm'   
+        })
+        
+        .state('test4',{
+            url: '/test4',
+            //templateUrl:'/templates/pages/test4/test4.html',
+            controller:'Test4Controller',
+            controllerAs: 'vm',
+            views:{
+                '':{
+                    templateUrl:'/templates/pages/test4/test4.html'
+                },
+                'col-left@test4':{
+                    templateUrl:'/templates/pages/partial-test2-list.html'
+                },
+                'col-right@test4':{
+                    templateUrl:'/templates/pages/partial-test2-paragraph.html'
+                }
+            }
         })
         
     });

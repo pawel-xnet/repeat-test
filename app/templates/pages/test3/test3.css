@@ -1,0 +1,14 @@
+.row-wrapper{
+    
+}
+
+.last-col{
+    border:1px solid red;
+    align-self: stretch;
+    width:100px;
+}
+
+.item{
+    border:1px dashed blue;
+    background-color:cornsilk;
+}
