@@ -51,17 +51,23 @@
             url: '/test2',
             templateUrl:'/templates/pages/test2.html',
             controller:'Test2Controller',
-            controllerAs: 'vm'   
+            controllerAs: 'vm'
         })
         
         .state('test2.list', {
-            url: '/list',
+            url: '/list:did',
             templateUrl:'/templates/pages/partial-test2-list.html',
+            controller:'Test2ControllerList',
+            controllerAs: 'vm',
+            params: {did:null}
         })
         
         .state('test2.paragraph', {
             url: '/paragraph',
             templateUrl:'/templates/pages/partial-test2-paragraph.html',
+            controller:'Test2ControllerParagraph',
+            controllerAs: 'vm',
+            params: {pid:null}
         })
         
         .state('test3',{
