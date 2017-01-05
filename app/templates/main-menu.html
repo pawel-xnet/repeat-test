@@ -1,8 +1,9 @@
 <ul class="main-menu">
-    <li><a ui-sref="notes">Notes</a></li>
-    <li><a ui-sref="users">Users</a></li>
-    <li><a ui-sref="test1">test1- subpage</a></li>
-    <li><a ui-sref="test2">test2- subpage</a></li>
-    <li><a ui-sref="test3">test3- subpage</a></li>
-    <li><a ui-sref="test4">test4- subpage</a></li>
+    <li><a ng-class="{active: isActive('/notes')}" ui-sref="notes">Notes</a></li>
+    <li><a ng-class="{active: isActive('/users')}" ui-sref="users">Users</a></li>
+    <li><a ng-class="{active: isActive('/test1')}" ui-sref="test1">test1- subpage</a></li>
+    <li><a ng-class="{active: isActive('/test2')}" ui-sref="test2">test2- subpage</a></li>
+    <li><a ng-class="{active: isActive('/test3')}" ui-sref="test3">test3- subpage</a></li>
+    <li><a ng-class="{active: isActive('/test4')}" ui-sref="test4">test4- subpage</a></li>
+    <li><a ng-class="{active: isActive('/test5')}" ui-sref="test5">test5- subpage</a></li>
 </ul> 

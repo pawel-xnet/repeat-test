@@ -47,18 +47,16 @@ ul.main-menu a{
     height:100%;
     width:100%;
     padding:5px 10px;
+    text-decoration: none;
+    border-radius:15px;
 }
-ul.main-menu a:hover,
-ul.main-menu a:focus{
+ul.main-menu a:hover{
     background-color:yellow;
     text-decoration: none;
 }
-
-
-
-
-
-
+ul.main-menu a.active{
+    border:2px solid #2a6496;
+}
 
 
 

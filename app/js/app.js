@@ -1,13 +1,16 @@
 (function () {
     var app = angular.module('NoteWrangler', ['ngMaterial','ui.router', 'ui.router.stateHelper' ]);
 
-    app.directive('mainMenu',function(){
-        return {
-            restrict:'E',
-            templateUrl:'../templates/main-menu.html'
-        };
-    });
-    
+//    app.directive('mainMenu',function(){
+//        return {
+//            restrict:'E',
+//            templateUrl:'../templates/main-menu.html',
+//            controller:function(){
+//                console.log('main-menu directive controller');
+//            }
+//        };
+//    });
+//    
     angular.module('NoteWrangler').config(function($stateProvider, $urlRouterProvider){
 
 //            .when('/notes/:id',{
@@ -95,6 +98,13 @@
             }
         })
         
+        .state('test5',{
+            url:'/test5',
+            templateUrl:'/templates/pages/test5/test5.html',
+            controller:'Test5Controller',
+            controllerAs: 'vm',
+        });
+        
     });
     
     angular.module('NoteWrangler').controller('AppCtrl',function($scope, $rootScope){
@@ -104,6 +114,7 @@
         $rootScope.$on('$routeChangeSuccess', function(){
             //alert('success');
         });
+        
     });
     
 })();
